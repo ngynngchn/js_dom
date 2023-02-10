@@ -12,7 +12,6 @@ Bonus: Wenn man nochmal den Button anklickt, ändert sich die Hintergrundfarbe w
  */
 
 let elements = document.getElementsByClassName("example");
-
 function myFunction() {
 	Array.from(elements).forEach((element) => {
 		element.classList.toggle("bg");
